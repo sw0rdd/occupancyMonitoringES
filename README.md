@@ -2,7 +2,9 @@
 
 This repository is part of an academic project focused on monitoring occupancy levels in a library across different floors and zones using Raspberry Pi Pico W units with ultrasonic sensors and an Arduino board. The data collected by the Pico units is sent to a central Arduino, which then posts the information to a local web server. The server runs on Node.js and stores occupancy data in MongoDB. <br>
 This project is made for the course "Project with Embedded Systems 2DT304". <br>
-This [Repository](https://github.com/sw0rdd/occupancyMonitoringWebsite) contains the source code for the webserver.
+This [Repository](https://github.com/sw0rdd/occupancyMonitoringWebsite) contains the source code for the webserver.<br>
+
+Project Demo [Video](https://www.youtube.com/watch?v=ATyk5O6ZMHE)
 
 ### Contributers
 Seif-Alamir Yousef & Ludvig Svensson
