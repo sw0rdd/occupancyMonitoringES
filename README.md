@@ -7,8 +7,8 @@ This [Repository](https://github.com/sw0rdd/occupancyMonitoringWebsite) contains
 ## Contributers
 Seif-Alamir Yousef & Ludvig Svensson
 
-# Academic Report 
-In this [Academic Report](https://docs.google.com/document/d/1X3nvK4McUbsehoqTqAhvU4GHUhgysJOzC636muut5SY/edit?usp=sharing) you will detailed information about the project.
+## Academic Report 
+This [Academic Report](https://docs.google.com/document/d/1X3nvK4McUbsehoqTqAhvU4GHUhgysJOzC636muut5SY/edit?usp=sharing) contains detailed information about the project.
 
 ### Raspberry Pi Pico - MicroPython Code
 
