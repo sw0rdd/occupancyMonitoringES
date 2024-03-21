@@ -4,10 +4,10 @@ This repository is part of an academic project focused on monitoring occupancy l
 This project is made for the course "Project with Embedded Systems 2DT304". <br>
 This [Repository](https://github.com/sw0rdd/occupancyMonitoringWebsite) contains the source code for the webserver.
 
-## Contributers
+### Contributers
 Seif-Alamir Yousef & Ludvig Svensson
 
-## Academic Report 
+### Academic Report 
 This [Academic Report](https://docs.google.com/document/d/1X3nvK4McUbsehoqTqAhvU4GHUhgysJOzC636muut5SY/edit?usp=sharing) contains detailed information about the project.
 
 ### Raspberry Pi Pico - MicroPython Code
