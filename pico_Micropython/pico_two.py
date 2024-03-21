@@ -191,7 +191,7 @@ def main_function():
     ble = bluetooth.BLE()
     p = BLESimplePeripheral(ble)
     
-    led = Pin(18, Pin.OUT)
+    led = Pin("LED", Pin.OUT)
     
     # Sensor setup
     trig_pin_1 = Pin(15, Pin.OUT)
@@ -203,7 +203,7 @@ def main_function():
     time.sleep(0.5) # Wait for 0.5 seconds for sensor stabilization
 
 
-    threshold_distance = 10.0
+    threshold_distance = 100.0 # Threshold distance in cm sensors activatatation
     activation_time_threshold = 500  # Time threshold in milliseconds to consider two activations related
     last_activation_time_1 = 0
     last_activation_time_2 = 0
@@ -233,8 +233,6 @@ def main_function():
                     movement_detected = True
                     last_direction = "right"
                     people_count += 1  # Increment on entering
-                    # if people_count > 0:
-                        # led.value(1)
                     print(f"people_count: {people_count}")
             last_activation_time_1 = current_time
 
@@ -247,8 +245,6 @@ def main_function():
                     movement_detected = True
                     last_direction = "left"
                     people_count -= 1  # Decrement on leaving
-                    # if people_count < 0:
-                        # led.value(0)
                     print(f"people_count: {people_count}")
             last_activation_time_2 = current_time
 

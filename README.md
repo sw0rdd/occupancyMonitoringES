@@ -18,17 +18,17 @@ Inside the `/pico_Micropython` directory, you will find three distinct files cor
 - `pico_two.py`: Code for the second and third floor zone.
 - `pico_three.py`: Code for the ground floor zone.
 
-These scripts are written in MicroPython and are responsible for measuring entries and exits using ultrasonic sensors attached to each Raspberry Pi Pico.
+These scripts are written in MicroPython and are responsible for measuring entries and exits using ultrasonic sensors attached to each Raspberry Pi Pico as well as handling Bluetooth communication. 
 
 ### Arduino - C++ Code
 
-The `/Arduino` directory contains two versions of the code for the Arduino UNO Rev 4:
+The `/Arduino` directory contains two versions of the code for the Arduino UNO R4 Wifi:
 
 - `ArduinoCode.ino`: This script does not utilize FreeRTOS. It's designed to collect data from the three Picos and communicate with a local server via POST requests, updating the occupancy status accordingly.
 
 - `ArduinoFreeRTOS.ino`: This version incorporates FreeRTOS to manage multitasking. However, due to the multitasking complexity, it is currently limited to connecting and collecting data from only two Picos.
 
-Use only one of them on the ARduino
+Use only one of them on the Arduino
 
 ## Installation and Usage
 

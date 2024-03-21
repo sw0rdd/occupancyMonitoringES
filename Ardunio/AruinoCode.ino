@@ -250,5 +250,3 @@ bool exploreUartService(BLEDevice& picoAdvertiser, int picoIndex) {
     return false;
   }
 }
-ArduinoCode.txt
-10 KB
