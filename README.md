@@ -22,6 +22,9 @@ Inside the `/pico_Micropython` directory, you will find three distinct files cor
 
 These scripts are written in MicroPython and are responsible for measuring entries and exits using ultrasonic sensors attached to each Raspberry Pi Pico as well as handling Bluetooth communication. 
 
+The directory also contains the following file
+- `trying_threads.py`: This file contains our try to use multithreading which didn't work out as we hoped. More on this can be found in the report. 
+
 ### Arduino - C++ Code
 
 The `/Arduino` directory contains two versions of the code for the Arduino UNO R4 Wifi:
